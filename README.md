@@ -1,18 +1,14 @@
-Understood. Here is a **clean, professional README version with no emojis**, suitable for academic, corporate, or recruiter-facing GitHub repositories.
 
-You can copy and paste this directly into your `README.md`.
 
----
+ Zepto Product Data Analysis using SQL
 
-# Zepto Product Data Analysis using SQL
-
-## Project Overview
+--> Project Overview
 
 This project performs an in-depth analysis of product data from **Zepto**, a quick-commerce grocery delivery platform, using **SQL**. The objective is to analyze product pricing, discounts, stock availability, and inventory distribution while applying data cleaning techniques to ensure accurate and reliable insights. The project demonstrates practical SQL skills used in real-world retail and e-commerce scenarios.
 
----
 
-## Tools & Technologies
+
+--> Tools & Technologies
 
 * **Database:** MySQL
 * **Language:** SQL
@@ -24,9 +20,9 @@ This project performs an in-depth analysis of product data from **Zepto**, a qui
   * Conditional Logic (CASE)
   * Business Metrics Analysis
 
----
 
-## Dataset Description
+
+--> Dataset Description
 
 The dataset (`zepto_data`) contains the following attributes:
 
@@ -39,18 +35,18 @@ The dataset (`zepto_data`) contains the following attributes:
 * Weight (in grams)
 * Stock Status (In Stock / Out of Stock)
 
----
 
-## Data Cleaning
+
+--> Data Cleaning
 
 * Checked for NULL values across all critical columns
 * Removed products with invalid pricing (MRP or discounted selling price equal to zero)
 * Converted pricing values from paise to rupees for consistency
 * Identified duplicate product names and categories
 
----
 
-## Analysis Performed
+
+--> Analysis Performed
 
 * Compared in-stock versus out-of-stock products
 * Identified top 10 best-value products based on discounted selling price
